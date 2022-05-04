@@ -1,4 +1,4 @@
-package hello-world
+package helloworld
 import {
   "dagger.io/dagger"
   "dagger.io/dagger/core"
