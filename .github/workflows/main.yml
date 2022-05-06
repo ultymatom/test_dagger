@@ -23,6 +23,6 @@ jobs:
             
       - name: display secret
         env:
-          test_secret: ${{TET_NAME}}
+          test_secret: ${{ secrets.TET_NAME}}
         run: |
           echo $test_secret
