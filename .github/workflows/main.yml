@@ -20,3 +20,9 @@ jobs:
             project init
             project update
             do hello
+            
+      - name: display secret
+        env:
+          test_secret: ${{TET_NAME}}
+        run: |
+          echo $test_secret
