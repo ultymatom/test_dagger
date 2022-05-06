@@ -22,7 +22,5 @@ jobs:
             do hello
             
       - name: display secret
-        env:
-          test_secret: ${{ secrets.TET_NAME}}
         run: |
-          echo $test_secret
+          echo ${{ secrets.TET_NAME }}
